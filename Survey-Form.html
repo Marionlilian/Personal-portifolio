@@ -6,14 +6,11 @@
 </head>
 <body>
     <section style="background-color:lightblue;">
-        <p style="text-align: center; font-size: 30px; font-weight: bold; color: darkblue;">
-        <h1>Personal Portifolio</h1>
-        </p>
-    <h1 style="font-size: medium; font-weight: 800;color: darkgreen;text-align: center;">
+    <h1 style="font-size: medium; font-weight: 800;color: darkgreen;text-align: center;font-size:30;">
         <p>Survey Form</p>
     </h1>
     </section>
-    <a href="About.html">Back to Home</a>
+    <a href="About.html">Back to Home</a> <br>
      <a href="Education.html">Education</a>
        <br>
        <a href="Hobbies.html">Hobbies</a>
@@ -22,12 +19,14 @@
     <form action="">
         <h2 style="color:blue;">We appreciate your feedback. Please Fill the following Survey Form</h2>
 <fieldset>
-        <legend>Personal Information</legend>
+    <h2 style="text-align: center;font-weight: 600;color: darkgreen;">Section 1:Personal Information</h2>
+        <legend></legend>
         <label for="Prefix">Prefix:</label>
-        input type="text" name="Prefix" placeholder="<Mr>
-        <Ms>
-        <Mrs>
-        <Dr>Prof" required>
+        <select name="Prefix" required>
+            <option value="Mr.">Mr.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Dr.">Dr.</option>
         <br><br>
         <label for="name">Name:</label>
         <input type="text" name="name" required>
