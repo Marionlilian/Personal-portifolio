@@ -2,9 +2,110 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <title>title</title>
+    <title>Survey Form</title>
 </head>
 <body>
-    
+    <section style="background-color:lightblue;">
+        <p style="text-align: center; font-size: 30px; font-weight: bold; color: darkblue;">
+        <h1>Personal Portifolio</h1>
+        </p>
+    <h1 style="font-size: medium; font-weight: 800;color: darkgreen;text-align: center;">
+        <p>Survey Form</p>
+    </h1>
+    </section>
+    <a href="About.html">Back to Home</a>
+     <a href="Education.html">Education</a>
+       <br>
+       <a href="Hobbies.html">Hobbies</a>
+        <br>
+    <a href="Skills.html">Skills</a>
+    <form action="">
+        <h2 style="color:blue;">We appreciate your feedback. Please Fill the following Survey Form</h2>
+<fieldset>
+        <legend>Personal Information</legend>
+        <label for="Prefix">Prefix:</label>
+        input type="text" name="Prefix" placeholder="<Mr>
+        <Ms>
+        <Mrs>
+        <Dr>Prof" required>
+        <br><br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" min="0" required>
+        <br><br>
+
+        <label for="Gender">Gender</label>  
+        <input type="radio" name="Male" value="Male"
+        <label for="Gender">Gender</label>
+        <input type="radio" name="Female" value="Female">required>
+        <br><br>
+        </fieldset>
+        <br><br><br>
+        <h2 style="text-align: center;font-weight: 600;color: darkgreen;">Section 2:Service Quality</h2>
+        <p>For each statement, please select the number that best represents your level of agreement.</p>
+        <br><br><br>
+        <table>
+            <tr>
+                <th>Service Quality</th>
+                <th>Excellent</th>
+                <th>Good</th>
+                <th>Average</th>
+                <th>Poor</th>
+            </tr>
+            <tr>
+                <td>Customer Service</td>
+                <td><input type="radio" name="customer_service" value="Excellent"></td>
+                <td><input type="radio" name="customer_service" value="Good"></td>
+                <td><input type="radio" name="customer_service" value="Average"></td>
+                <td><input type="radio" name="customer_service" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>Product Quality</td>
+                <td><input type="radio" name="product_quality" value="Excellent"></td>
+                <td><input type="radio" name="product_quality" value="Good"></td>
+                <td><input type="radio" name="product_quality" value="Average"></td>
+                <td><input type="radio" name="product_quality" value="Poor"></td>
+            </tr>
+            <tr>
+                <td>Overall Experience</td>
+                <td><input type="radio" name="overall_experience" value="Excellent"></td>
+                <td><input type="radio" name="overall_experience" value="Good"></td>
+                <td><input type="radio" name="overall_experience" value="Average"></td>
+                <td><input type="radio" name="overall_experience" value="Poor"></td>
+            </tr>
+        </table>
+        <br><br>
+        <h2 style="text-align: center;font-weight: 600;color: darkgreen;">Section 3:Additional Comments</h2>
+        <li>
+            <ol type="1">
+            <label for="Likes">What did you like most about our service</label>  <br>
+            <input type="text" name="Likes" placeholder="Your feedback here..." required> 
+            <br><br>
+            <textarea name="Likes" rows="4" cols="50" placeholder="Your feedback here..."></textarea><br><br>
+            <label for="Dislikes">What did you dislike most about our service</label>  <br> 
+            <textarea name="Dislikes" rows="4" cols="50" placeholder="Your feedback here..."></textarea>
+            <label for="comments">Please provide any additional comments or suggestions:</label>
+            <br>
+            <textarea name="comments" rows="4" cols="50" placeholder="Your comments here..."></textarea>
+            <br><br>
+            <label for="rating">Overall Rating:</label>
+            <select name="rating">
+                <option value="Excellent">Excellent</option>
+                <option value="Good">Good</option>
+                <option value="Average">Average</option>
+                <option value="Poor">Poor</option>
+            </ol>
+        </li>
+    </form>
+    <br><br>
+    <p>Thank you for your valuable feedback</p>
+    <button type="submit" style="background-color: green; color: white; padding
 </body>
 </html>
