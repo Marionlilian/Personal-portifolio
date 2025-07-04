@@ -7,7 +7,7 @@
 <body>
     <section style="background-color:lightblue;">
     <h1 style="font-size:large; font-weight: 800;color: darkgreen;text-align: center;font-size:100;">
-        <p>Survey Form</p>
+        <p style="font-size: large;">Survey Form</p>
     </h1>
     </section>
     <a href="About.html">Back to Home</a> <br>
@@ -18,8 +18,8 @@
     <a href="Skills.html">Skills</a>
     <form action="">
         <h3 style="color:blue;">We appreciate your feedback. Please Fill the following Survey Form</h3>
-<fieldset>
-    <h2 style="text-align: left;font-weight: 100;color: darkgreen;">Section 1:Personal Information</h2>
+<fieldset style="border: 2px solid darkgreen; padding: 20px; background-color:lightpink;">
+    <h2 style="text-align: left;font-weight: 40;color: darkgreen;">Section 1:Personal Information</h2>
         <legend></legend>
         <label for="Prefix">Prefix:</label>
         <select name="Prefix" required>
@@ -47,9 +47,9 @@
         <br><br>
         </fieldset>
         <br><br>
-        <h2 style="text-align: left;font-weight: 100;color: darkgreen;">Section 2:Service Quality</h2>
+        <h2 style="text-align: left;font-weight: 40;color: darkgreen;">Section 2:Service Quality</h2>
         <p>For each statement, please select the number that best represents your level of agreement.</p>
-        <table>
+        <table border="1" style="width: 100%; text-align: center;color: darkgrey;">
             <tr height="50" style="background-color: lightgray;">
                 <th>Service Quality</th>
                 <th>Excellent</th>
@@ -79,10 +79,9 @@
                 <td><input type="radio" name="overall_experience" value="Poor"></td>
             </tr>
         </table>
-        <h2 style="text-align: left;font-weight: 100;color: darkgreen;">Section 3:Additional Comments</h2>
+        <h2 style="text-align: left;font-weight: 40;color: darkgreen;">Section 3:Additional Comments</h2>
             <ol type="1">
-        <li>
-            <label for="Likes">What did you like most about our service</label> </li> <br>
+        <li><label for="Likes">What did you like most about our service</label> </li> <br>
             <textarea name="Likes" rows="4" cols="50" placeholder="Your feedback here..."></textarea><br>
            <li><label for="Dislikes">What did you dislike most about our service</label></li> <br> 
             <textarea name="Dislikes" rows="4" cols="50" placeholder="Your feedback here..."></textarea><br>
@@ -99,7 +98,9 @@
             </ol>
             <br>
          <p style="text-align: center;font-style: italic;color: blueviolet;">Thank you for your valuable feedback</p>
-    <button type="submit" style="background-color: green; color: white; padding
+    <button type="submit" style="background-color: green; color: white; padding; 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+        <strong>Submit</strong>
+        Submit</button>
     </form> 
 </body>
 </html
