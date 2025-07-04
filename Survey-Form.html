@@ -6,7 +6,7 @@
 </head>
 <body>
     <section style="background-color:lightblue;">
-    <h1 style="font-size: medium; font-weight: 800;color: darkgreen;text-align: center;font-size:30;">
+    <h1 style="font-size: medium; font-weight: 800;color: darkgreen;text-align: center;font-size:100;">
         <p>Survey Form</p>
     </h1>
     </section>
@@ -17,9 +17,9 @@
         <br>
     <a href="Skills.html">Skills</a>
     <form action="">
-        <h2 style="color:blue;">We appreciate your feedback. Please Fill the following Survey Form</h2>
+        <h3 style="color:blue;">We appreciate your feedback. Please Fill the following Survey Form</h3>
 <fieldset>
-    <h2 style="text-align: center;font-weight: 600;color: darkgreen;">Section 1:Personal Information</h2>
+    <h2 style="text-align: left;font-weight: 300;color: darkgreen;">Section 1:Personal Information</h2>
         <legend></legend>
         <label for="Prefix">Prefix:</label>
         <select name="Prefix" required>
@@ -43,15 +43,14 @@
         <label for="Gender">Gender</label>  
         <input type="radio" name="Male" value="Male"
         <label for="Gender">Gender</label>
-        <input type="radio" name="Female" value="Female">required>
+        <input type="radio" name="Female" value="Female"
         <br><br>
         </fieldset>
-        <br><br><br>
-        <h2 style="text-align: center;font-weight: 600;color: darkgreen;">Section 2:Service Quality</h2>
+        <br><br>
+        <h2 style="text-align: left;font-weight: 300;color: darkgreen;">Section 2:Service Quality</h2>
         <p>For each statement, please select the number that best represents your level of agreement.</p>
-        <br><br><br>
         <table>
-            <tr>
+            <tr border="2">
                 <th>Service Quality</th>
                 <th>Excellent</th>
                 <th>Good</th>
@@ -80,16 +79,13 @@
                 <td><input type="radio" name="overall_experience" value="Poor"></td>
             </tr>
         </table>
-        <br><br>
-        <h2 style="text-align: center;font-weight: 600;color: darkgreen;">Section 3:Additional Comments</h2>
+        <h2 style="text-align: left;font-weight: 300;color: darkgreen;">Section 3:Additional Comments</h2>
         <li>
             <ol type="1">
             <label for="Likes">What did you like most about our service</label>  <br>
-            <input type="text" name="Likes" placeholder="Your feedback here..." required> 
-            <br><br>
-            <textarea name="Likes" rows="4" cols="50" placeholder="Your feedback here..."></textarea><br><br>
+            <textarea name="Likes" rows="4" cols="50" placeholder="Your feedback here..."></textarea><br>
             <label for="Dislikes">What did you dislike most about our service</label>  <br> 
-            <textarea name="Dislikes" rows="4" cols="50" placeholder="Your feedback here..."></textarea>
+            <textarea name="Dislikes" rows="4" cols="50" placeholder="Your feedback here..."></textarea><br>
             <label for="comments">Please provide any additional comments or suggestions:</label>
             <br>
             <textarea name="comments" rows="4" cols="50" placeholder="Your comments here..."></textarea>
@@ -102,9 +98,8 @@
                 <option value="Poor">Poor</option>
             </ol>
         </li>
-    </form>
-    <br><br>
-    <p>Thank you for your valuable feedback</p>
+         <p>Thank you for your valuable feedback</p>
     <button type="submit" style="background-color: green; color: white; padding
+    </form> 
 </body>
 </html>
